@@ -85,6 +85,6 @@ class ReviewController extends Controller
 
         $hasil = $jumlahRate / $jumlahReview;
 
-        return $hasil;
+        return round($hasil,1);
     }
 }

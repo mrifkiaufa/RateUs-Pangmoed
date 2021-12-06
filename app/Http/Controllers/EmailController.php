@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\Review;
 use App\Models\Menu;
 use Illuminate\Support\Facades\Auth;
-use App\Email\PangmoedEmail;
+use App\Mail\PangmoedEmail;
 use Illuminate\Support\Facades\Mail;
 
 class EmailController extends Controller
@@ -51,11 +51,10 @@ class EmailController extends Controller
         $data = [
             'role' => $role,
             'judul' => 'Balasan Feedback Pangmoed Cafe',
-            'isi' => $ulasan->ulasan,
+            'isi' => $request->balasan,
         ];
-        //dd($ulasan->email);
 
-        Mail::to('aufa.a@gmail.com')->send(new PangmoedEmail($data));
+        Mail::to($ulasan->email)->send(new PangmoedEmail($data));
 
         return redirect('/');
     }

@@ -4,7 +4,7 @@
 @section('role')
     @if ($role == 'admin')
         <a href="/token">
-            <img style="width: 10%;" src="image/gear.png" alt="">
+            <img width="30px;" src="image/gear.png" alt="">
         </a>
     @endif
 @endsection
