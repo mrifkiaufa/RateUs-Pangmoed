@@ -54,7 +54,7 @@ class ReviewController extends Controller
         if(session()->has('LoggedUser')){
             $ulasan = Review::where('menu_id', $request->id)->get();
             $role = Auth::user()->role;
-            $menu = Menu::find($request->id)->first();
+            $menu = Menu::where('id', $request->id)->first();
             $meanRate = self::meanRate($request->id);
             if(!$meanRate) {
                 return view('warning', compact('role'));
