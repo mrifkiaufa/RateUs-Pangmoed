@@ -10,7 +10,13 @@
 @endsection
 
 @section('isi')
-<h1>Ulasan untuk menu ini belum tersedia :(</h1>
-<a type="submit" href="/">kembali</a>
+<br>
+<br>
+<br>
+<br>
+    <div class="m-5 pb-5">
+        <h1>Ulasan untuk menu ini belum tersedia :(</h1>
+        <a class="btn btn-light mt-3 shadow-sm" href="/">Back</a>
+    </div>
 @endsection
 

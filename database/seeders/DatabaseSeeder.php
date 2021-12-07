@@ -23,11 +23,6 @@ class DatabaseSeeder extends Seeder
             'role' => 'admin'
         ]);
 
-        User::create([
-            'password' => 'ad32A0',
-            'role' => 'pelanggan'
-        ]);
-
         Menu::create([
             'jenis' => 'Makanan',
             'nama' => 'Nasi Goreng',
@@ -66,22 +61,69 @@ class DatabaseSeeder extends Seeder
 
         Review::create([
             'menu_id' => 1,
-            'email' => 'satu@gmail.com',
-            'rating' => 4,
-            'ulasan' => 'Mantap, bagus sekali'
-        ]);
-
-        Review::create([
-            'menu_id' => 1,
-            'email' => 'dua@gmail.com',
+            'email' => 'hasan@gmail.com',
             'rating' => 3,
             'ulasan' => 'Lumayan lah'
         ]);
 
         Review::create([
             'menu_id' => 1,
+            'email' => 'siti@gmail.com',
+            'rating' => 4,
+            'ulasan' => 'Menurutku sudah enak, cuma agak asin.'
+        ]);
+
+        Review::create([
+            'menu_id' => 1,
             'rating' => 5,
-            'ulasan' => 'Keren banget'
+            'ulasan' => 'Enak banget kak'
+        ]);
+
+        Review::create([
+            'menu_id' => 1,
+            'email' => 'yunus@gmail.com',
+            'rating' => 5,
+            'ulasan' => 'Paling top pokoknya :D'
+        ]);
+
+        Review::create([
+            'menu_id' => 1,
+            'email' => 'hendri@gmail.com',
+            'rating' => 4,
+            'ulasan' => 'Mantap, mantap'
+        ]);
+
+        Review::create([
+            'menu_id' => 4,
+            'email' => 'doni@gmail.com',
+            'rating' => 4,
+            'ulasan' => 'Mungkin perlu ditambah es'
+        ]);
+
+        Review::create([
+            'menu_id' => 4,
+            'email' => 'yaya@gmail.com',
+            'rating' => 5,
+            'ulasan' => 'Segar banget!!'
+        ]);
+
+        Review::create([
+            'menu_id' => 4,
+            'rating' => 3,
+            'ulasan' => 'Agak manis ya'
+        ]);
+
+        Review::create([
+            'menu_id' => 4,
+            'rating' => 4,
+            'ulasan' => 'Udah boleh lah'
+        ]);
+
+        Review::create([
+            'menu_id' => 4,
+            'email' => 'tono@gmail.com',
+            'rating' => 5,
+            'ulasan' => 'Perfecto!!!'
         ]);
     }
 }

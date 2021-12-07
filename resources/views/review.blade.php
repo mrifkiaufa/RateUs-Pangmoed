@@ -35,6 +35,7 @@
                     <br>
                     <p>Rating rata-rata: {{ $meanRate }}/5</p>
                     @endif
+                    <a class="btn btn-warning mt-3 shadow-sm" href="/">Back to menu</a>
                     <br>
                     <h3 class="text-center mt-5 pb-1 text-black">People's Rate</h3>
 @foreach ($ulasan as $uls)
