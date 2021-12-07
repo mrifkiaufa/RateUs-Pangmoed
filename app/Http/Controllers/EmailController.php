@@ -16,7 +16,7 @@ class EmailController extends Controller
             $role = Auth::user()->role;
 
             if($role == 'admin'){
-                $ulasan = Review::find($request->id)->first();
+                $ulasan = Review::where('id', $request->id)->first();
                 $id = $request->id;
                 return view('email', compact('id', 'ulasan', 'role'));
             }
