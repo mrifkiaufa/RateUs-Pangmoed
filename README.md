@@ -6,5 +6,5 @@
     <li>Muhammad Rifki Aufa - 1908107010037</li>
 </ul>
 <br>
-<p>Untuk mengakses website ini, anda bisa langsung buka link berikut: https://rateus-pangmoed.000webhostapp.com/</p>
-<p>Atau anda juga bisa jalankan tutorial pada link berikut ini jika ingin mengakses dari local.</p>
+<p>Untuk mengakses website ini, anda bisa langsung buka link berikut: <a href="https://rateus-pangmoed.000webhostapp.com/">klik di sini</a>.</p>
+<p>Atau anda juga bisa jalankan tutorial pada link berikut ini jika ingin mengakses dari local: <a href="#">klik di sini</a>.</p>
