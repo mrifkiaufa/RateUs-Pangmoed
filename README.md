@@ -7,4 +7,4 @@
 </ul>
 <br>
 <p>Untuk mengakses website ini, anda bisa langsung buka link berikut: <a href="https://rateus-pangmoed.000webhostapp.com/">klik di sini</a>.</p>
-<p>Atau anda juga bisa jalankan tutorial pada link berikut ini jika ingin mengakses dari local: <a href="https://drive.google.com/file/d/1FeRwt05sV4UL7ppctAI4kaWRwBNFaPaS/view?usp=sharing">klik di sini</a>.</p>
+<p>Atau anda juga bisa jalankan tutorial pada link berikut ini jika ingin mengakses dari local: <a href="https://drive.google.com/file/d/17dzIE_x7Ciqq0LCissOZKFj5_ktsjCoV/view?usp=sharing">klik di sini</a>.</p>
